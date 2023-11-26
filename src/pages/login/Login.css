@@ -1,0 +1,82 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Make the container at least full viewport height */
+  background-color: #f0f0f0;
+  flex-direction: column;
+  width: 100%;
+}
+.login-form {
+  width: 80%;
+  max-width: 420px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.display-flex {
+  display: flex;
+}
+.button {
+  align-items: center;
+  background-color: #fff;
+  border: 3px solid #000 !important;
+  border-radius: 0 !important;
+  border-radius: initial !important;
+  display: flex;
+  height: 48px !important;
+  width: 232px !important;
+  justify-content: center;
+}
+.button-text-area {
+  align-items: center;
+  background-color: #fff;
+  border: 3px solid #000 !important;
+  border-radius: 0 !important;
+  border-radius: initial !important;
+  display: flex;
+  width: 232px !important;
+  justify-content: center;
+  color: #000000;
+  cursor: pointer;
+  padding: 0px 30px !important;
+  display: inline-block;
+  margin: 10px 15px;
+  text-transform: uppercase;
+  line-height: 2em;
+  letter-spacing: 1.5px;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  font-size: 14px;
+  border: 3px solid #cfcece;
+  background-color: #ffffff;
+  border-radius: 15px 15px 15px 15px;
+  transition: all 0.3s;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  width: 110px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+select {
+  margin: 10px 15px;
+}
+.error-message {
+  color: red;
+  margin-top: 15px;
+}

@@ -1,0 +1,30 @@
+.main-container {
+}
+.content {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  flex: 1;
+  justify-content: center;
+}
+.seperate-employee-counter {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+.each-counter {
+  height: 200px;
+  width: 25%;
+  border: solid 3px black;
+  justify-content: space-around;
+  /* box-shadow: 5px 10px 18px 10px #2345;
+  border-radius: 19px; */
+  margin-bottom: 70px;
+  padding: 1%;
+}

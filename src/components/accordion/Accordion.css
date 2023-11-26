@@ -1,0 +1,59 @@
+.filter-button {
+  height: 48px !important;
+  border: 3px solid black !important;
+  width: 232px !important;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: unset !important;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.plus-minus {
+  margin: 15px 11px 11px 18px;
+}
+.accordion-button-container {
+  display: flex;
+}
+.plus-minus-text {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+.expanded-div {
+  min-height: 48px !important;
+  height: auto;
+  border-width: 0px 3px 3px 3px;
+  border-style: solid;
+  border-color: black;
+  width: 232px !important;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: unset !important;
+  display: flex;
+  align-items: center;
+}
+.each-accordion .all-filter-container {
+  margin-left: unset !important;
+  width: 220px !important;
+}
+.each-accordion .css-13cymwt-control {
+  border: unset !important;
+  border: unset !important;
+  text-align: initial;
+  margin-left: 14px;
+}
+.css-t3ipsp-control {
+  width: 220px;
+}
+.css-1hb7zxy-IndicatorsContainer {
+  /* width: 90%; */
+}
+.each-accordion button.std1 {
+  border-color: none !important;
+}
+.expanded-div .filterButton {
+  border-color: unset !important;
+  border-width: 0px !important;
+  border-style: none !important;
+  margin-right: unset !important;
+  /* text-align: initial; */
+}

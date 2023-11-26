@@ -1,0 +1,38 @@
+.popover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.items {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.popover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.popover-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.7);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,66 @@
+.content-top-margin {
+  /* margin-top: 230px; */
+}
+.main-heading {
+  padding-bottom: 3%;
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.seperate-employee-counter {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+.each-counter {
+  height: 200px;
+  width: 25%;
+  border: solid 3px black;
+  justify-content: space-around;
+  /* box-shadow: 5px 10px 18px 10px #2345;
+  border-radius: 19px; */
+  margin-bottom: 70px;
+  padding: 1%;
+}
+.sub-heading {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.number-employees-text {
+  text-transform: capitalize;
+}
+.clickable-count {
+  padding-left: 4%;
+  font-weight: 600;
+  color: #26ade3;
+  text-decoration: underline;
+  font-size: 26px;
+}
+.zero-count {
+  padding-left: 4%;
+  font-weight: 600;
+  color: #26ade3;
+  font-size: 26px;
+}
+.counter-details {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  height: 86%;
+  align-items: center;
+}
+.category-chart {
+  display: flex;
+  justify-content: center;
+}
+.table-heading {
+  --bs-table-color: white;
+  --bs-table-bg: black;
+  border-color: white;
+}

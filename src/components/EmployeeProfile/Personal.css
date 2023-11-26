@@ -1,0 +1,11 @@
+.profile-row {
+  display: flex;
+}
+.skill-container {
+  display: flex;
+  flex-direction: column;
+}
+.each-skill-row {
+  display: flex;
+  align-items: center;
+}

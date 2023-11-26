@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Bukra";
+  src: url("./assets/fonts/29LTBukra-Rg.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bukra bold";
+  src: url("./assets/fonts/29LTBukra-Bd.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: "Bukra";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: "Bukra";
+}
+.tab {
+  font-family: "Bukra";
+  font-weight: 800;
+  font-size: 19px;
+}
+.dropdown {
+  font-family: "Bukra";
+}
+div,
+span,
+button,
+input {
+  font-family: "Bukra";
+  text-transform: capitalize;
+}
+button {
+  font-size: 15px;
+}
+input {
+  font-size: 12px;
+}
+.css-13cymwt-control,
+button.std,
+input.input-field1 {
+  height: 48px !important;
+  border: 3px solid black !important;
+  min-width: 232px !important;
+  width: auto !important;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: unset !important;
+}
+.css-1jqq78o-placeholder {
+  font-size: 15px !important;
+  color: black !important;
+}
+.content {
+  font-size: 14px;
+}
+/* .content-top-margin {
+  margin-top: 230px;
+} */
+input.input-field {
+  height: 48px !important;
+  border: 3px solid black !important;
+  width: 135px;
+  padding: 10px;
+  width: auto !important;
+  border-radius: unset !important;
+}
+button.std1 {
+  margin-right: 40px;
+}
+.content-top-margin {
+  margin-top: 131px;
+  width: 100%;
+}
+.apexcharts-toolbar {
+  z-index: 4 !important;
+}
+select.new-user {
+  align-items: center;
+  background-color: #fff;
+  border: 3px solid #000 !important;
+  border-radius: 0 !important;
+  border-radius: initial !important;
+  display: flex;
+  height: 48px !important;
+  width: 232px !important;
+}

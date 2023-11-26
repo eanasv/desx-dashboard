@@ -1,0 +1,88 @@
+.active-tab {
+  background-color: black !important;
+  color: white;
+  /* border-bottom: solid 5px black !important; */
+}
+
+.tab-button {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 51px;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  border-right: solid 3px black;
+  border-bottom: solid 3px black;
+  text-transform: capitalize;
+}
+.tab-button-container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 131px;
+  z-index: 10;
+  margin-top: -1px;
+  border-top: 3px solid white;
+}
+
+.drop-down-tab3 {
+  display: flex;
+}
+.tab3-filter-container {
+  display: flex;
+  margin-left: 7%;
+}
+.date-range-filter-container {
+  display: flex;
+}
+.tab3-first-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-left: -20px;
+}
+.tab3-sec-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 70px;
+  margin-left: -20px;
+}
+.top-padding {
+  padding: 3%;
+}
+.seperate-entity-box {
+  padding-top: 8%;
+  padding-left: 3%;
+}
+.flex-box-chart1 {
+  display: flex;
+  flex: 1;
+  margin-left: 8%;
+}
+.flex-box-chart2 {
+  display: flex;
+  flex: 1;
+}
+.summary-table {
+  margin-bottom: 50px;
+  width: 85%;
+  margin-left: 138px;
+}
+.summary-text {
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+.table-heading {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.margin {
+  margin-right: 40px;
+}

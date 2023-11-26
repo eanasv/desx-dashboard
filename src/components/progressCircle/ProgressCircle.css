@@ -1,0 +1,14 @@
+.progress-circle__background {
+  background-color: white;
+}
+.progress-bar-container {
+  width: 128px;
+  height: 6px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: green;
+}

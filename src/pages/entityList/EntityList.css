@@ -1,0 +1,40 @@
+.entity-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-left: 138px;
+  width: 80%;
+  /* margin: auto; */
+}
+.each-entity {
+  /* background-color: #ccc; */
+  padding: 10px;
+  height: 200px;
+  width: 85%;
+  border: solid 1px #2345;
+  justify-content: space-around;
+  box-shadow: 5px 10px 18px 10px #2345;
+  border-radius: 19px;
+  margin-bottom: 70px;
+  padding: 1%;
+}
+.each-entity-container {
+  cursor: pointer;
+}
+.list-logo {
+  width: 100px;
+  height: 100px;
+}
+.content-container {
+  display: flex;
+}
+.accordion-filter {
+  margin-right: 48px;
+  margin-top: -21px;
+}
+.each-accordion {
+  margin-bottom: 20px;
+}
+.main-content-top-margin {
+  margin-top: 80px;
+}

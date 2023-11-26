@@ -1,0 +1,77 @@
+.upload-backgroound {
+  /* width: 96%;*/
+  height: 100vh;
+  margin: auto;
+  left: 0;
+  right: 0;
+  background-color: #a8cdff;
+  /* height: 200px; */
+  background-image: linear-gradient(to bottom right, #a8cdff, #e9f1fd, #79aefe);
+  /* margin-top: 20%; */
+}
+.upload-container {
+  height: 25vh;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  margin-top: 131px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.upload-area {
+  /* new */
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* min-height: 100vh; */
+  width: 100%;
+}
+.response-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+.text {
+  justify-content: center;
+  margin: auto;
+}
+.file-browser {
+  margin-top: 20px;
+}
+.download-excel {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 30px;
+  position: absolute;
+  align-items: center;
+  /* justify-content: center; */
+  width: 100%;
+  z-index: 4;
+  top: 180px;
+  right: 30px;
+}
+.download-buttons {
+  margin-top: 20px;
+}
+.btn1 {
+  margin-right: 20px;
+}
+.upload-button {
+  width: 100%;
+  padding: 10px;
+  background-color: black !important;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  margin-top: 25px;
+}

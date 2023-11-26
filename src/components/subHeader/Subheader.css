@@ -1,0 +1,29 @@
+.subheader-container {
+  display: flex;
+  flex-direction: column;
+  height: 153px;
+  background-color: #f4f4f4;
+  width: 100%;
+  justify-content: end;
+  margin-bottom: 80px;
+}
+
+.bread-container {
+  /* display: flex;
+  align-items: end; */
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: #999999;
+}
+.subheader-pagename {
+  display: flex;
+  margin-left: 138px;
+  /* margin-top: 120px; */
+  position: relative;
+  color: #000000;
+  font-family: "Bukra bold", Sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-bottom: 34px;
+}

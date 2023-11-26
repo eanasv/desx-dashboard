@@ -1,0 +1,148 @@
+.enti-container {
+  padding-top: 65px;
+}
+.even-row {
+  background-color: #e6edf2;
+  color: black;
+}
+
+.odd-row {
+  background-color: white;
+  color: black;
+}
+.back-button {
+  display: flex;
+  padding-left: 40px;
+  background: linear-gradient(45deg, black, transparent);
+  height: 51px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-right: 9px;
+  position: fixed;
+  z-index: 10;
+}
+.employeeList {
+  width: 95%;
+  min-height: 100px;
+  /* height: auto;
+  max-height: 300px;
+  overflow: auto; */
+  /* border: 1px solid red; */
+  display: flex;
+  margin-left: 138px;
+  flex-direction: column;
+  /* padding: 35px; */
+  padding-right: 13%;
+  margin-bottom: 60px;
+}
+table.table {
+  width: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border: 1px solid black;
+}
+td.each-column-border {
+  border: 1px solid black;
+  padding: 10px;
+  text-transform: capitalize;
+}
+th.each-column-border {
+  border: 1px solid black;
+  padding: 10px;
+}
+.heading {
+  /* font-size: 30px;
+  padding-bottom: 60px;
+  text-decoration: underline; */
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-bottom: unset !important;
+}
+.donutDiv {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+  margin-left: 138px;
+  width: 100%;
+}
+.top-section {
+  display: flex;
+  align-items: center;
+}
+.heading-cont {
+  display: flex;
+  margin-bottom: 20px;
+}
+.employee-details-heading {
+  text-align: center;
+  /* color: #cb989f; */
+  font-weight: 700;
+  font-size: 19px;
+  padding-bottom: 20px;
+  /* text-decoration: underline; */
+}
+.loader {
+  margin-top: 200px;
+}
+.drop-down-container {
+  display: flex;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  /* border-radius: 50px; */
+}
+.logo-container {
+  padding-left: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+.entity-score-section {
+  border: 3px solid rosybrown;
+  border-radius: 10px;
+  padding: 8px;
+}
+.list-logo {
+  width: 100px;
+  height: 100px;
+}
+.score-container {
+  margin-left: 138px;
+  height: 130px;
+  margin-top: -14px;
+  width: 150px;
+}
+.top-head {
+  display: flex;
+  width: 100%;
+}
+
+.capitalise {
+  text-transform: capitalize;
+  text-align: start;
+}
+.up-down-button {
+  background: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.table-heading {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.donut-div {
+  margin-right: 30px;
+}
+.enti-container1 {
+}
+.right-white-border {
+  border-right: 2px solid !important;
+}

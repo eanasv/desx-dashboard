@@ -1,0 +1,40 @@
+.subcat-list {
+  text-align: start;
+}
+.top-padding-sub {
+  /* padding-top: 5%; */
+}
+.list-container {
+  width: 85%;
+  margin-top: 6%;
+  margin-left: 138px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+.highlight {
+  background-color: darkcyan !important;
+  font-weight: bold !important;
+  color: white !important;
+  --bs-table-bg: darkcyan;
+  --bs-table-color: white;
+}
+.barChart {
+  margin-top: 10%;
+  width: 85%;
+  margin-left: 138px;
+}
+.chart-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.table-heading {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline lightskyblue;
+}
